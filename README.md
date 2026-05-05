@@ -20,7 +20,8 @@ Desarrollar un sistema web interactivo que permita gestionar múltiples parquead
 
 ## 👥 Equipo
 - Alex Molina  
-- Proyecto académico con enfoque profesional  
+- Sebas Restrepo
+- Juan Tirado
 
 ---
 
