@@ -100,3 +100,44 @@ Tablas principales:
 - Sistema de reservas anticipadas  
 
 ---
+## Uso de ramas en GitHub
+
+Las ramas (branches) en GitHub permiten trabajar en nuevas funciones, mejoras o correcciones sin afectar el código principal del proyecto.
+
+### ¿Para qué sirven?
+
+- Facilitan el trabajo en equipo.
+- Evitan errores en la versión principal del sistema.
+- Permiten desarrollar funciones por separado.
+- Ayudan a organizar el trabajo del proyecto.
+
+### ¿Cómo las utilizaremos en ParkGrid?
+
+En el proyecto ParkGrid se utilizará una rama principal llamada:
+
+- `main` → Contendrá la versión estable y final del proyecto.
+
+Cada integrante del equipo trabajará en ramas diferentes según la tarea asignada. Ejemplos:
+
+- `login`
+- `interfaz`
+- `base-datos`
+- `reportes`
+
+Cuando una funcionalidad esté terminada y probada, se realizará un **merge** hacia la rama `main`.
+
+### Flujo de trabajo
+
+1. Crear una nueva rama.
+2. Realizar cambios y guardar avances.
+3. Subir cambios a GitHub.
+4. Revisar el funcionamiento.
+5. Unir los cambios a `main`.
+
+### Ejemplo de comandos
+
+```bash
+git checkout -b login
+git add .
+git commit -m "Se agregó módulo de inicio de sesión"
+git push origin login
